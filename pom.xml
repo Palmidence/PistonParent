@@ -11,6 +11,10 @@
 
     <name>Piston Parent</name>
     <url>https://laxio.org/</url>
+    <organization>
+        <name>Laxio</name>
+        <url>https://laxio.org/</url>
+    </organization>
 
     <modules>
         <module>piston-api</module>
