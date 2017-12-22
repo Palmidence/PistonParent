@@ -1,0 +1,12 @@
+[submodule "piston-api"]
+	path = piston-api
+	url = git@github.com:Laxio/PistonAPI
+[submodule "protocol"]
+	path = protocol
+	url = git@github.com:Laxio/Protocol
+[submodule "stickypiston"]
+	path = stickypiston
+	url = git@github.com:Laxio/StickyPiston
+[submodule "piston-ignition"]
+	path = piston-ignition
+	url = git@github.com:Laxio/PistonIgnition
