@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.laxio.piston</groupId>
+    <artifactId>piston-parent</artifactId>
+    <packaging>pom</packaging>
+    <version>1.12.2-SNAPSHOT</version>
+
+    <name>Piston Parent</name>
+    <url>https://laxio.org/</url>
+
+    <modules>
+        <module>piston-api</module>
+        <module>protocol</module>
+        <module>stickypiston</module>
+        <module>piston-ignition</module>
+    </modules>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <api.version>unknown</api.version>
+        <minecraft.version>1.12.2</minecraft.version>
+        <minecraft_version>1_12_R1</minecraft_version>
+        <maven.build.timestamp.format>yyyyMMdd-HHmm</maven.build.timestamp.format>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <buildtag.suffix></buildtag.suffix>
+    </properties>
+
+    <repositories>
+        <repository>
+            <id>spigotmc-public</id>
+            <url>https://hub.spigotmc.org/nexus/content/groups/public/</url>
+        </repository>
+    </repositories>
+
+    <pluginRepositories>
+        <pluginRepository>
+            <id>spigotmc-public</id>
+            <url>https://hub.spigotmc.org/nexus/content/groups/public/</url>
+        </pluginRepository>
+    </pluginRepositories>
+</project>
