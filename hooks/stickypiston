@@ -1,0 +1,23 @@
+#!/bin/sh
+
+cd stickypiston
+msg="$(git log -1 --pretty=%B)"
+cd ../
+
+# echo $PWD
+
+# unset GIT_DIR
+# unset GIT_WORK_TREE
+# git config --get remote.origin.url
+
+# echo "UNSET GIT DIR"
+git status
+
+# echo "RESET STAGE"
+git reset
+
+# echo "ADD STICKY PISTON"
+git add stickypiston
+
+# echo "COMMIT"
+git commit -m "StickyPiston: $msg"
