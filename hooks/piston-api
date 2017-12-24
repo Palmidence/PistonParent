@@ -11,7 +11,7 @@ cd ../
 # git config --get remote.origin.url
 
 # echo "UNSET GIT DIR"
-git status
+# git status
 
 # echo "RESET STAGE"
 git reset
