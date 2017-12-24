@@ -31,7 +31,7 @@
         <maven.build.timestamp.format>yyyyMMdd-HHmm</maven.build.timestamp.format>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
-        <buildtag.suffix></buildtag.suffix>
+        <buildtag.suffix/>
     </properties>
 
     <repositories>
