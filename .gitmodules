@@ -10,3 +10,6 @@
 [submodule "piston-ignition"]
 	path = piston-ignition
 	url = git@github.com:Laxio/PistonIgnition
+[submodule "protocol-translator"]
+	path = protocol-translator
+	url = git@github.com:Laxio/ProtocolTranslator
