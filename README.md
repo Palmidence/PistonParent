@@ -1,4 +1,4 @@
-Piston Parent [![Build Status](https://travis-ci.org/Laxio/PistonParent.svg?branch=master)](https://travis-ci.org/Laxio/PistonParent) [![Coverage Status](https://coveralls.io/repos/github/Laxio/PistonParent/badge.svg?branch=master)](https://coveralls.io/github/Laxio/PistonParent?branch=master)
+Piston Parent [![Build Status](https://travis-ci.org/Laxio/PistonParent.svg?branch=master)](https://travis-ci.org/Laxio/PistonParent) [![Coverage Status](https://coveralls.io/repos/github/Laxio/PistonParent/badge.svg?branch=master)](https://coveralls.io/github/Laxio/PistonParent?branch=master) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/c85d421ec3d8497b8a46f0a38dbca19f)](https://www.codacy.com/app/hfoxy/PistonParent?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Laxio/PistonParent&amp;utm_campaign=Badge_Grade)
 =============
 
 Container for Piston submodules, also handles travis/maven tests
