@@ -40,6 +40,10 @@
             <id>spigotmc-public</id>
             <url>https://hub.spigotmc.org/nexus/content/groups/public/</url>
         </repository>
+        <repository>
+            <id>hfox-public</id>
+            <url>https://nexus.hfox.uk/repository/maven-public/</url>
+        </repository>
     </repositories>
 
     <pluginRepositories>
