@@ -41,8 +41,8 @@
             <url>https://hub.spigotmc.org/nexus/content/groups/public/</url>
         </repository>
         <repository>
-            <id>hfox-public</id>
-            <url>https://nexus.hfox.uk/repository/maven-public/</url>
+            <id>laxio-public</id>
+            <url>https://repo.laxio.org/repository/maven-public/</url>
         </repository>
     </repositories>
 
@@ -73,6 +73,17 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+
+    <distributionManagement>
+        <repository>
+            <id>laxio-releases</id>
+            <url>https://repo.laxio.org/repository/maven-releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>laxio-snapshots</id>
+            <url>https://repo.laxio.org/repository/maven-snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
 
     <build>
         <plugins>
