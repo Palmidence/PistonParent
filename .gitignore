@@ -101,4 +101,6 @@ MANIFEST.MF
 dependency-reduced-pom.xml
 
 Thumbs.db
-src/main/resources/rebel.xml
+
+### Packet Output ###
+packets
