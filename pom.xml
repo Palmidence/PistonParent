@@ -20,7 +20,6 @@
         <module>piston-api</module>
         <module>protocol</module>
         <module>stickypiston</module>
-        <module>protocol-translator</module>
         <module>piston-ignition</module>
     </modules>
 
