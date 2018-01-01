@@ -132,6 +132,15 @@
                     <force>true</force>
                     <canUpdateLicense>true</canUpdateLicense>
                     <canUpdateCopyright>true</canUpdateCopyright>
+                    <roots>
+                        <root>src/main/java</root>
+                    </roots>
+                    <includes>
+                        <includes>**/*.java</includes>
+                    </includes>
+                    <addJavaLicenseAfterPackage>false</addJavaLicenseAfterPackage>
+                    <processStartTag>========================LICENSE_START========================</processStartTag>
+                    <processEndTag>========================LICENSE_END========================</processEndTag>
                 </configuration>
                 <executions>
                     <execution>
