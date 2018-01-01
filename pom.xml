@@ -128,13 +128,18 @@
                 <version>1.14</version>
                 <configuration>
                     <licenseName>piston</licenseName>
-                    <licenseResolver>${project.baseUri}/src/license</licenseResolver>
+                    <licenseResolver>${project.baseUri}src/license</licenseResolver>
+                    <force>true</force>
+                    <canUpdateLicense>true</canUpdateLicense>
+                    <canUpdateCopyright>true</canUpdateCopyright>
                 </configuration>
                 <executions>
                     <execution>
-                        <id>first</id>
+                        <id>license-management</id>
                         <goals>
                             <goal>update-file-header</goal>
+                            <goal>update-project-license</goal>
+                            <goal>add-third-party</goal>
                         </goals>
                         <phase>process-sources</phase>
                     </execution>

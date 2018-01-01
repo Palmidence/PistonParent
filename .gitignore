@@ -101,6 +101,7 @@ MANIFEST.MF
 dependency-reduced-pom.xml
 
 Thumbs.db
+src/licenses/licenses.properties_*
 
 ### Packet Output ###
 packets
